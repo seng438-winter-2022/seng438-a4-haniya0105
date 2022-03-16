@@ -1,0 +1,542 @@
+{
+  "id": "ce5313d0-97f7-4a04-8dff-8f9f6275db1f",
+  "version": "2.0",
+  "name": "seng438a4",
+  "url": "https://www.walmart.ca",
+  "tests": [{
+    "id": "e3a86f55-6d34-4c02-b200-ff50f82c3c7a",
+    "name": "password change success",
+    "commands": [{
+      "id": "5b79e8fb-feb9-4680-ba3d-1481645f4f9e",
+      "comment": "",
+      "command": "open",
+      "target": "/en",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fe4a5e7c-6969-4df0-8a12-8faec6b481a8",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1918x1054",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "62536558-a883-4741-a60c-ea68c3334b43",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.css-hl2cc3",
+      "targets": [
+        ["css=.css-hl2cc3", "css:finder"],
+        ["xpath=//span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "59b8d64f-429e-4bca-8376-8d996432477d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-hl2cc3",
+      "targets": [
+        ["css=.css-hl2cc3", "css:finder"],
+        ["xpath=//span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6d676dd2-989c-4eba-a395-5457441d6e56",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Profile Settings",
+      "targets": [
+        ["linkText=Profile Settings", "linkText"],
+        ["css=.css-163inev:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Profile Settings')]", "xpath:link"],
+        ["xpath=//div[@id='accounts-home-page']/div[3]/div/div[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/my-account/personal-settings')]", "xpath:href"],
+        ["xpath=//div[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Profile Settings')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "efa4a755-8d4c-4bc7-84a9-dc891c0f22c2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-4ys7l3 .css-79elbk:nth-child(4) .css-1amkq5n",
+      "targets": [
+        ["css=.css-4ys7l3 .css-79elbk:nth-child(4) .css-1amkq5n", "css:finder"],
+        ["xpath=//main[@id='skip-to-main']/div[2]/div/div/div[3]/div/button", "xpath:idRelative"],
+        ["xpath=//main/div[2]/div/div/div[3]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "077c620d-74da-4dee-acd4-abdbc078488a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-4ys7l3 #currentPassword",
+      "targets": [
+        ["css=.css-4ys7l3 #currentPassword", "css:finder"],
+        ["xpath=(//input[@id='currentPassword'])[2]", "xpath:attributes"],
+        ["xpath=//main[@id='skip-to-main']/div[2]/div/div/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//main/div[2]/div/div/div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "692c09f2-d467-4134-b440-dc1003aee6c3",
+      "comment": "",
+      "command": "type",
+      "target": "css=.css-4ys7l3 #currentPassword",
+      "targets": [
+        ["css=.css-4ys7l3 #currentPassword", "css:finder"],
+        ["xpath=(//input[@id='currentPassword'])[2]", "xpath:attributes"],
+        ["xpath=//main[@id='skip-to-main']/div[2]/div/div/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//main/div[2]/div/div/div[3]/div/input", "xpath:position"]
+      ],
+      "value": "password"
+    }, {
+      "id": "8fda266e-d31b-4e6c-b249-e77ee1f57a71",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-4ys7l3 #newPassword",
+      "targets": [
+        ["css=.css-4ys7l3 #newPassword", "css:finder"],
+        ["xpath=(//input[@id='newPassword'])[2]", "xpath:attributes"],
+        ["xpath=//main[@id='skip-to-main']/div[2]/div/div/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//main/div[2]/div/div/div[4]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8613c636-a154-4540-87ab-2c7a96b9c9b3",
+      "comment": "",
+      "command": "type",
+      "target": "css=.css-4ys7l3 #newPassword",
+      "targets": [
+        ["css=.css-4ys7l3 #newPassword", "css:finder"],
+        ["xpath=(//input[@id='newPassword'])[2]", "xpath:attributes"],
+        ["xpath=//main[@id='skip-to-main']/div[2]/div/div/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//main/div[2]/div/div/div[4]/div/input", "xpath:position"]
+      ],
+      "value": "password1"
+    }, {
+      "id": "579749a1-83c1-4f5d-9a54-186a3103a306",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-1aukoqp",
+      "targets": [
+        ["css=.css-1aukoqp", "css:finder"],
+        ["xpath=//main[@id='skip-to-main']/div[2]/div/div/div[5]/button", "xpath:idRelative"],
+        ["xpath=//main/div[2]/div/div/div[5]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "636c62dc-614b-476b-b55e-a9f2cd022e30",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.css-1aukoqp",
+      "targets": [
+        ["css=.css-1aukoqp", "css:finder"],
+        ["xpath=//main[@id='skip-to-main']/div[2]/div/div/div[5]/button", "xpath:idRelative"],
+        ["xpath=//main/div[2]/div/div/div[5]/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "4648a25c-f521-4724-91a5-f5ecb5403141",
+    "name": "change password to current password",
+    "commands": [{
+      "id": "e47d55c9-de2e-4fd7-a4ee-dc5126cec801",
+      "comment": "",
+      "command": "open",
+      "target": "/en",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2d11f150-3fad-4286-b863-02a0f39b4404",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1918x1054",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f31a0e18-4083-4aad-a0f1-3a307b7864d4",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.css-1xnp7l4 > .css-1f9gjts",
+      "targets": [
+        ["css=.css-1xnp7l4 > .css-1f9gjts", "css:finder"],
+        ["xpath=//div[@id='home-page']/div/div/div/div[2]/div/div/a/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/a/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "09c50a04-6b10-4e5e-867e-465cd444938c",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.css-1xnp7l4 > .css-1f9gjts",
+      "targets": [
+        ["css=.css-1xnp7l4 > .css-1f9gjts", "css:finder"],
+        ["xpath=//div[@id='home-page']/div/div/div/div[2]/div/div/a/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/a/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c89d465b-d3e7-4b7a-9cde-a3996c040c9a",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=My recommendations",
+      "targets": [
+        ["linkText=My recommendations", "linkText"],
+        ["css=.css-mxl3yf:nth-child(2) > .css-1t0um3j", "css:finder"],
+        ["xpath=//a[contains(text(),'My recommendations')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/my-account/recommendations')]", "xpath:href"],
+        ["xpath=//div[4]/div/div/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'My recommendations')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "23ef8166-deab-4495-823e-a2cb39de5a31",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.css-1xnp7l4 > .css-1f9gjts",
+      "targets": [
+        ["css=.css-1xnp7l4 > .css-1f9gjts", "css:finder"],
+        ["xpath=//div[@id='home-page']/div/div/div/div[2]/div/div/a/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/a/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "18c007e0-ad32-4560-b865-4f1ebac5240d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-hl2cc3",
+      "targets": [
+        ["css=.css-hl2cc3", "css:finder"],
+        ["xpath=//span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "73c9957a-2152-4ba2-b19f-fbcaf9d37f1d",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.e18kvv91",
+      "targets": [
+        ["css=.e18kvv91", "css:finder"],
+        ["xpath=//div[3]/a/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e573f2d9-df54-4492-9bf1-92afe7778d77",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Sign out",
+      "targets": [
+        ["linkText=Sign out", "linkText"],
+        ["css=.css-2hpngt", "css:finder"],
+        ["xpath=//a[contains(text(),'Sign out')]", "xpath:link"],
+        ["xpath=//div[@id='accounts-home-page']/div[2]/div/div/div/div[2]/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.walmart.ca/ws/secure/en/sign-out')]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sign out')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f72139e6-3ad4-489e-8843-02c242c7af1d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Profile Settings",
+      "targets": [
+        ["linkText=Profile Settings", "linkText"],
+        ["css=.css-163inev:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Profile Settings')]", "xpath:link"],
+        ["xpath=//div[@id='accounts-home-page']/div[3]/div/div[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/my-account/personal-settings')]", "xpath:href"],
+        ["xpath=//div[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Profile Settings')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "10cbf752-e0aa-463b-8a5d-541dbc4b0b41",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-4ys7l3 .css-79elbk:nth-child(4) .css-1amkq5n",
+      "targets": [
+        ["css=.css-4ys7l3 .css-79elbk:nth-child(4) .css-1amkq5n", "css:finder"],
+        ["xpath=//main[@id='skip-to-main']/div[2]/div/div/div[3]/div/button", "xpath:idRelative"],
+        ["xpath=//main/div[2]/div/div/div[3]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fbf59195-809c-4d23-8c6f-eab1a4be8168",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-4ys7l3 #currentPassword",
+      "targets": [
+        ["css=.css-4ys7l3 #currentPassword", "css:finder"],
+        ["xpath=(//input[@id='currentPassword'])[2]", "xpath:attributes"],
+        ["xpath=//main[@id='skip-to-main']/div[2]/div/div/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//main/div[2]/div/div/div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8b4183ec-43af-40c3-bce2-db3fa62138d2",
+      "comment": "",
+      "command": "type",
+      "target": "css=.css-4ys7l3 #currentPassword",
+      "targets": [
+        ["css=.css-4ys7l3 #currentPassword", "css:finder"],
+        ["xpath=(//input[@id='currentPassword'])[2]", "xpath:attributes"],
+        ["xpath=//main[@id='skip-to-main']/div[2]/div/div/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//main/div[2]/div/div/div[3]/div/input", "xpath:position"]
+      ],
+      "value": "password"
+    }, {
+      "id": "fbe66c7d-0735-432a-b9a0-bdbf7ebbc213",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-4ys7l3 #newPassword",
+      "targets": [
+        ["css=.css-4ys7l3 #newPassword", "css:finder"],
+        ["xpath=(//input[@id='newPassword'])[2]", "xpath:attributes"],
+        ["xpath=//main[@id='skip-to-main']/div[2]/div/div/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//main/div[2]/div/div/div[4]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7b6965e5-5b31-4ae8-8f3d-d15b13f46c87",
+      "comment": "",
+      "command": "type",
+      "target": "css=.css-4ys7l3 #newPassword",
+      "targets": [
+        ["css=.css-4ys7l3 #newPassword", "css:finder"],
+        ["xpath=(//input[@id='newPassword'])[2]", "xpath:attributes"],
+        ["xpath=//main[@id='skip-to-main']/div[2]/div/div/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//main/div[2]/div/div/div[4]/div/input", "xpath:position"]
+      ],
+      "value": "password"
+    }, {
+      "id": "3fbbeff8-113d-4eb7-adaa-8c4762025ce7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-4ys7l3 .css-36pgf3",
+      "targets": [
+        ["css=.css-4ys7l3 .css-36pgf3", "css:finder"],
+        ["xpath=//main[@id='skip-to-main']/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//main/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "52da31c7-f8a7-42fe-bd68-d1c36aa81b2c",
+    "name": "password change too short",
+    "commands": [{
+      "id": "19d93554-4b7e-4a08-9ffe-4ec0c7bb77e3",
+      "comment": "",
+      "command": "open",
+      "target": "/en",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0d733c77-408f-4e4d-af02-625d41841224",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1918x1054",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c8dfa1bf-0b81-41c8-9913-d9b9a868e8ab",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-hl2cc3",
+      "targets": [
+        ["css=.css-hl2cc3", "css:finder"],
+        ["xpath=//span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8cfe8a58-1e08-4831-850a-61e06d38b263",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Profile Settings",
+      "targets": [
+        ["linkText=Profile Settings", "linkText"],
+        ["css=.css-163inev:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Profile Settings')]", "xpath:link"],
+        ["xpath=//div[@id='accounts-home-page']/div[3]/div/div[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/my-account/personal-settings')]", "xpath:href"],
+        ["xpath=//div[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Profile Settings')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "73e79ae6-01b1-4402-b191-455a6d8237ca",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Credit cards",
+      "targets": [
+        ["linkText=Credit cards", "linkText"],
+        ["css=.css-18iivt9:nth-child(10) .eqw0yc05", "css:finder"],
+        ["xpath=//a[contains(text(),'Credit cards')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/my-account/credit-cards')]", "xpath:href"],
+        ["xpath=//li[10]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Credit cards')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "107b9b81-3509-4875-b8d5-41b5f8ca994d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-4ys7l3 .css-79elbk:nth-child(4) .css-1amkq5n",
+      "targets": [
+        ["css=.css-4ys7l3 .css-79elbk:nth-child(4) .css-1amkq5n", "css:finder"],
+        ["xpath=//main[@id='skip-to-main']/div[2]/div/div/div[3]/div/button", "xpath:idRelative"],
+        ["xpath=//main/div[2]/div/div/div[3]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "aa51fbe2-4d99-4b0c-a443-279c2cdf382a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-4ys7l3 #currentPassword",
+      "targets": [
+        ["css=.css-4ys7l3 #currentPassword", "css:finder"],
+        ["xpath=(//input[@id='currentPassword'])[2]", "xpath:attributes"],
+        ["xpath=//main[@id='skip-to-main']/div[2]/div/div/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//main/div[2]/div/div/div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "874d9368-6dd5-46b8-99e7-a4e229e8488a",
+      "comment": "",
+      "command": "type",
+      "target": "css=.css-4ys7l3 #currentPassword",
+      "targets": [
+        ["css=.css-4ys7l3 #currentPassword", "css:finder"],
+        ["xpath=(//input[@id='currentPassword'])[2]", "xpath:attributes"],
+        ["xpath=//main[@id='skip-to-main']/div[2]/div/div/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//main/div[2]/div/div/div[3]/div/input", "xpath:position"]
+      ],
+      "value": "password"
+    }, {
+      "id": "32141a62-e6c5-4c17-9dee-df02acd045b9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-4ys7l3 #newPassword",
+      "targets": [
+        ["css=.css-4ys7l3 #newPassword", "css:finder"],
+        ["xpath=(//input[@id='newPassword'])[2]", "xpath:attributes"],
+        ["xpath=//main[@id='skip-to-main']/div[2]/div/div/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//main/div[2]/div/div/div[4]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bf78c8bb-429b-42c9-93b2-5cf47d6accf6",
+      "comment": "",
+      "command": "type",
+      "target": "css=.css-4ys7l3 #newPassword",
+      "targets": [
+        ["css=.css-4ys7l3 #newPassword", "css:finder"],
+        ["xpath=(//input[@id='newPassword'])[2]", "xpath:attributes"],
+        ["xpath=//main[@id='skip-to-main']/div[2]/div/div/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//main/div[2]/div/div/div[4]/div/input", "xpath:position"]
+      ],
+      "value": "hi"
+    }, {
+      "id": "2d69c5a9-ef6d-4bed-93d0-7cf4fc6a2863",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.css-4ys7l3 #newPassword",
+      "targets": [
+        ["css=.css-4ys7l3 #newPassword", "css:finder"],
+        ["xpath=(//input[@id='newPassword'])[2]", "xpath:attributes"],
+        ["xpath=//main[@id='skip-to-main']/div[2]/div/div/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//main/div[2]/div/div/div[4]/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }]
+  }, {
+    "id": "774652eb-d5d6-47f2-9c6c-d72ae0927ef7",
+    "name": "search mario kart 8, get to item",
+    "commands": [{
+      "id": "70d9e7af-fe8f-487d-8763-a784a024e14e",
+      "comment": "",
+      "command": "open",
+      "target": "/en",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ef31e0a5-e937-41d2-aea3-ad2a272f9a0a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1918x1054",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "522f637f-30c4-4152-857c-797ee2bfeedd",
+      "comment": "",
+      "command": "click",
+      "target": "id=search-form-input",
+      "targets": [
+        ["id=search-form-input", "id"],
+        ["css=#search-form-input", "css:finder"],
+        ["xpath=//input[@id='search-form-input']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a3f6a8b4-9ba0-49f0-901b-35fd449c679c",
+      "comment": "",
+      "command": "type",
+      "target": "id=search-form-input",
+      "targets": [
+        ["id=search-form-input", "id"],
+        ["css=#search-form-input", "css:finder"],
+        ["xpath=//input[@id='search-form-input']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "mario kart 8"
+    }, {
+      "id": "73377a53-5d97-4fd0-bb08-1847dbb02c48",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=search-form-input",
+      "targets": [
+        ["id=search-form-input", "id"],
+        ["css=#search-form-input", "css:finder"],
+        ["xpath=//input[@id='search-form-input']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "00e84432-77bb-4769-9b5b-0a6a6af0c74d",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=div:nth-child(1) > .css-1fnwt3w .css-gxbcya",
+      "targets": [
+        ["css=div:nth-child(1) > .css-1fnwt3w .css-gxbcya", "css:finder"],
+        ["xpath=//img[@alt='Mario Kart 8 Deluxe (Nintendo Switch)']", "xpath:img"],
+        ["xpath=//div[@id='product-results']/div/div/a/div/div/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6f97bd05-8138-4a88-8ac2-017403acb545",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(1) > .css-1fnwt3w .css-gxbcya",
+      "targets": [
+        ["css=div:nth-child(1) > .css-1fnwt3w .css-gxbcya", "css:finder"],
+        ["xpath=//img[@alt='Mario Kart 8 Deluxe (Nintendo Switch)']", "xpath:img"],
+        ["xpath=//div[@id='product-results']/div/div/a/div/div/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "27e857ce-5fb9-49ee-8354-54ff972a4fcd",
+    "name": "Account creation",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["4648a25c-f521-4724-91a5-f5ecb5403141", "e3a86f55-6d34-4c02-b200-ff50f82c3c7a", "52da31c7-f8a7-42fe-bd68-d1c36aa81b2c"]
+  }],
+  "urls": ["https://www.walmart.ca/"],
+  "plugins": []
+}
