@@ -126,16 +126,16 @@
       ],
       "value": ""
     }, {
-      "id": "636c62dc-614b-476b-b55e-a9f2cd022e30",
+      "id": "74f6a1f6-8ee0-4c6f-af9d-564ce627cd56",
       "comment": "",
-      "command": "mouseOver",
-      "target": "css=.css-1aukoqp",
+      "command": "waitForElementPresent",
+      "target": "css=.css-4ys7l3 .css-11ran75",
       "targets": [
-        ["css=.css-1aukoqp", "css:finder"],
-        ["xpath=//main[@id='skip-to-main']/div[2]/div/div/div[5]/button", "xpath:idRelative"],
-        ["xpath=//main/div[2]/div/div/div[5]/button", "xpath:position"]
+        ["css=.css-4ys7l3 .css-11ran75", "css:finder"],
+        ["xpath=//main[@id='skip-to-main']/div[2]/div/div/div[4]/div/div", "xpath:idRelative"],
+        ["xpath=//main/div[2]/div/div/div[4]/div/div", "xpath:position"]
       ],
-      "value": ""
+      "value": "30000"
     }]
   }, {
     "id": "52da31c7-f8a7-42fe-bd68-d1c36aa81b2c",
@@ -264,6 +264,17 @@
         ["xpath=//main/div[2]/div/div/div[4]/div/input", "xpath:position"]
       ],
       "value": "${KEY_ENTER}"
+    }, {
+      "id": "847cae24-499e-45d1-bf0c-68c10ca6c575",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.css-1lliris",
+      "targets": [
+        ["css=.css-1lliris", "css:finder"],
+        ["xpath=//main[@id='skip-to-main']/div[2]/div/div/div[4]/span/span", "xpath:idRelative"],
+        ["xpath=//div[4]/span/span", "xpath:position"]
+      ],
+      "value": ""
     }]
   }, {
     "id": "774652eb-d5d6-47f2-9c6c-d72ae0927ef7",
@@ -340,6 +351,17 @@
         ["xpath=//img[@alt='Mario Kart 8 Deluxe (Nintendo Switch)']", "xpath:img"],
         ["xpath=//div[@id='product-results']/div/div/a/div/div/img", "xpath:idRelative"],
         ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a748def2-b1f7-4035-9ecf-38606459ca52",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.css-1c6krh5",
+      "targets": [
+        ["css=.css-1c6krh5", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Mario Kart 8 Deluxe (Nintendo Switch)')]", "xpath:innerText"]
       ],
       "value": ""
     }]
@@ -456,6 +478,17 @@
         ["xpath=//main/div[2]/div/div/div[4]/div/input", "xpath:position"]
       ],
       "value": "${KEY_ENTER}"
+    }, {
+      "id": "37e3bde4-7bb4-4528-ba0f-a8317ad41561",
+      "comment": "",
+      "command": "assertElementNotPresent",
+      "target": "css=.css-1aukoqp",
+      "targets": [
+        ["css=.css-1aukoqp", "css:finder"],
+        ["xpath=//main[@id='skip-to-main']/div[2]/div/div/div[5]/button", "xpath:idRelative"],
+        ["xpath=//main/div[2]/div/div/div[5]/button", "xpath:position"]
+      ],
+      "value": ""
     }]
   }],
   "suites": [{
@@ -464,7 +497,7 @@
     "persistSession": false,
     "parallel": false,
     "timeout": 300,
-    "tests": ["e3a86f55-6d34-4c02-b200-ff50f82c3c7a", "52da31c7-f8a7-42fe-bd68-d1c36aa81b2c"]
+    "tests": ["52da31c7-f8a7-42fe-bd68-d1c36aa81b2c", "73ae2a97-ca45-47f3-ac6f-5e521d18e786", "e3a86f55-6d34-4c02-b200-ff50f82c3c7a"]
   }],
   "urls": ["https://www.walmart.ca/"],
   "plugins": []
