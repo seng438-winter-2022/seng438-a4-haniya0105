@@ -236,6 +236,70 @@ public class RangeTest {
     public void testNegativeScalingDouble() throws IllegalArgumentException {
     	Range.scale(testRange, -5);
     	}
+	
+
+	//Josh
+    //shift test
+    @Test
+    public void shiftExpectNotNullMutantKiller1() {
+        Range dummy1 = new Range(-10, 10);
+        assertNotNull(Range.shift(dummy1, 10)); 
+    }
+    
+  //Josh
+    //shift test
+    //line 349
+    @Test
+    public void shiftExpectNotNullMutantKiller3() {
+        Range dummy1 = new Range(-10, 10);
+        dummy1 = Range.shift(dummy1, 20, true);
+        assertEquals("Shifting with no zero crossing (-10, 10) by delta = 20 should result in (10, 30). Asserting lower bounds equal", 
+                    10, dummy1.getLowerBound(), 0.001d); 
+    }
+    
+  //josh
+    //shiftWithNoZeroCrossing 
+    //mutant on line 387: changed conditional Boundary
+    @Test 
+    public void shiftWithNoZeroCrossingMutantKiller1() {
+        Range dummy1 = new Range(-1, 10);
+        dummy1 = Range.shift(dummy1, 20, false);
+        assertEquals("Shifting with no zero crossing (-1, 10) by delta = 20 should result in (0.0, 30). Asserting lower bounds equal", 
+                0.0, dummy1.getLowerBound(), 0.001d); 
+    }
+    
+  //josh
+    //shiftWithNoZeroCrossing 
+    //mutant on line 387: negated conditional Boundary
+    @Test 
+    public void shiftWithNoZeroCrossingMutantKiller2() {
+        Range dummy1 = new Range(-10, 1);
+        dummy1 = Range.shift(dummy1, -20, false);
+        assertEquals("Shifting with no zero crossing (-10, 1) by delta = -20 should result in (-30, 0.0). Asserting upper bounds equal", 
+                0.0, dummy1.getUpperBound(), 0.001d); 
+    }
+
+  //josh
+    //shiftWithNoZeroCrossing 
+    //mutant on line 387: negated conditional Boundary
+    @Test 
+    public void shiftWithNoZeroCrossingMutantKiller3() {
+        Range dummy1 = new Range(-10, 10);
+        dummy1 = Range.shift(dummy1, 5, false);
+        assertEquals("Shifting with no zero crossing (-10, 10) by delta = 5 should result in (-5, 15). Asserting lower bounds equal", 
+                -5, dummy1.getLowerBound(), 0.001d); 
+    }
+
+  //josh
+    //shiftWithNoZeroCrossing 
+    //mutant on line 387: negated conditional Boundary
+    @Test 
+    public void shiftWithNoZeroCrossingMutantKiller4() {
+        Range dummy1 = new Range(-10, 10);
+        dummy1 = Range.shift(dummy1, -5, false);
+        assertEquals("Shifting with no zero crossing (-10, 10) by delta = -5 should result in (15, -5). Asserting upper bounds equal", 
+                5, dummy1.getUpperBound(), 0.001d); 
+    }
 
 
     
