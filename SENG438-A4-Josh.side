@@ -1,0 +1,440 @@
+{
+  "id": "7f46a29a-5218-4a8e-aa45-a1d4d1722527",
+  "version": "2.0",
+  "name": "SENG438-A4",
+  "url": "https://www.walmart.ca",
+  "tests": [{
+    "id": "c2397a46-4871-4d39-a4ec-927bd403c6f3",
+    "name": "Search Item By Number BearPaws",
+    "commands": [{
+      "id": "8ce121ff-5971-4583-98b0-ef0d46a79e1d",
+      "comment": "",
+      "command": "open",
+      "target": "/en",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "35d43d34-5838-4937-b61a-29d7118ad864",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f8ea379a-a730-41e9-9209-047b6619b0ff",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Deals",
+      "targets": [
+        ["linkText=Deals", "linkText"],
+        ["css=.css-1n3j5qu:nth-child(5) > .e8z2aj22", "css:finder"],
+        ["xpath=//a[contains(text(),'Deals')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/cp/shop/deals/6000203002145?icid=homepage_HP_TopCategory_Deals_WM')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Deals')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "abb38955-a69c-46e5-9be3-adbd3502d960",
+      "comment": "",
+      "command": "click",
+      "target": "id=search-form-input",
+      "targets": [
+        ["id=search-form-input", "id"],
+        ["css=#search-form-input", "css:finder"],
+        ["xpath=//input[@id='search-form-input']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "62b5a51b-6a0f-4d7b-9a96-a1dbf76913f5",
+      "comment": "",
+      "command": "type",
+      "target": "id=search-form-input",
+      "targets": [
+        ["id=search-form-input", "id"],
+        ["css=#search-form-input", "css:finder"],
+        ["xpath=//input[@id='search-form-input']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": " 30588420"
+    }, {
+      "id": "e0f17df1-c49d-48b8-becf-32af6269e3e5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-1lxthnz > use",
+      "targets": [
+        ["css=.css-1lxthnz > use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "a907c89f-55a4-4be9-9bc6-7c5b5ba35e6b",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.css-qekle8",
+      "targets": [
+        ["css=.css-qekle8", "css:finder"],
+        ["xpath=//div[@id='product-results']/div/div/a/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//a/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "457763d2-6f0b-4bae-a466-8ca6dac83172",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.css-qekle8",
+      "targets": [
+        ["css=.css-qekle8", "css:finder"],
+        ["xpath=//div[@id='product-results']/div/div/a/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//a/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "936fa1f9-b004-4c2c-b82b-17a916bcc6de",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.css-18qugkl",
+      "targets": [
+        ["css=.css-18qugkl", "css:finder"],
+        ["xpath=//div[@id='product-results']/div/div/a/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//a/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5f5b53da-484c-47c0-affb-f1801dce0beb",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.css-18qugkl",
+      "targets": [
+        ["css=.css-18qugkl", "css:finder"],
+        ["xpath=//div[@id='product-results']/div/div/a/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//a/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "da5c2a1b-e088-4faf-ab8c-da919d66fc81",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-1p4va6y",
+      "targets": [
+        ["css=.css-1p4va6y", "css:finder"],
+        ["xpath=//div[@id='product-results']/div/div/a/div/div[2]/div[2]/span/div/p", "xpath:idRelative"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'Bear Paws Chocolate Chip Cookies')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "224e6f0e-c112-4361-a20c-d5b4498113e8",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,18.399999618530273)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4fd35996-bfc0-4710-a385-c7e5cf609b19",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.css-254gj8",
+      "targets": [
+        ["css=.css-254gj8", "css:finder"],
+        ["xpath=//div[3]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "705e7e42-64ab-4ff8-98b6-4be3a3f73370",
+    "name": "Find Store Near Me Using Search Bar",
+    "commands": [{
+      "id": "834962d8-ee68-4921-9ef1-9b87e34919a8",
+      "comment": "",
+      "command": "open",
+      "target": "/en",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "40953d33-933b-46bc-b2ad-0282a695a499",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b66ce967-5373-4472-9dc1-b1de6a2459cf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.en07u8q1",
+      "targets": [
+        ["css=.en07u8q1", "css:finder"],
+        ["xpath=//div[2]/a/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "92a98494-9696-47e7-bc03-e2d3a90a3cfc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sfa-search__input",
+      "targets": [
+        ["css=.sfa-search__input", "css:finder"],
+        ["xpath=//input[@value='L5V2N6']", "xpath:attributes"],
+        ["xpath=//div[@id='skipto-main-wrap']/div/div[3]/div/div/div/div/form/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "071169f0-ee75-46a5-ab80-6f651fb09bfc",
+      "comment": "",
+      "command": "type",
+      "target": "css=.sfa-search__input",
+      "targets": [
+        ["css=.sfa-search__input", "css:finder"],
+        ["xpath=//input[@value='T2M 2C5']", "xpath:attributes"],
+        ["xpath=//div[@id='skipto-main-wrap']/div/div[3]/div/div/div/div/form/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": "T2M 2C5"
+    }, {
+      "id": "0415c1c0-d6bb-4cb5-ad48-e86031d64453",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sfa-wm-btn",
+      "targets": [
+        ["css=.sfa-wm-btn", "css:finder"],
+        ["xpath=//div[@id='skipto-main-wrap']/div/div[3]/div/div/div/div/form/button", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Search')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "99f84a79-8ed5-4399-a933-82a480626321",
+      "comment": "",
+      "command": "click",
+      "target": "css=#sfa-store-list-item-3011 .sfa-store-list-item__name",
+      "targets": [
+        ["css=#sfa-store-list-item-3011 .sfa-store-list-item__name", "css:finder"],
+        ["xpath=//div[@id='sfa-store-list-item-3011']/div[2]/h2", "xpath:idRelative"],
+        ["xpath=//div[2]/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Northland Store')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2d94ef13-4c5b-4f56-9ef7-eb45c922e078",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "linkText=Northland Store",
+      "targets": [
+        ["linkText=Northland Store", "linkText"],
+        ["css=.sfa-store-summary__name > .automation-store-details-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Northland Store')]", "xpath:link"],
+        ["xpath=//div[@id='skipto-main-wrap']/div/div[4]/div[4]/div/div/h3/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/en/stores-near-me/northland-store-3011')]", "xpath:href"],
+        ["xpath=//h3/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Northland Store')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "09e28bd1-6162-469d-be3d-a5b369bacb83",
+    "name": "Find Store Near Me Using My Location ",
+    "commands": [{
+      "id": "dfb0e289-6401-467a-86f0-e9a7b7116ee6",
+      "comment": "",
+      "command": "open",
+      "target": "/en",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "68efc108-fe0a-4d5a-8c3a-4ad6a6006d74",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "15f46ef1-6e5e-4294-bcb2-b9500da1d1b9",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.en07u8q0",
+      "targets": [
+        ["css=.en07u8q0", "css:finder"],
+        ["xpath=//a[contains(@href, '/en/stores-near-me')]", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Store finder')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c6028790-e496-47f4-8f2c-58af06cc7ff6",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.en07u8q0",
+      "targets": [
+        ["css=.en07u8q0", "css:finder"],
+        ["xpath=//a[contains(@href, '/en/stores-near-me')]", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Store finder')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a0acfa79-0c49-49ce-a2ba-8f45c8f917b9",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.en07u8q1",
+      "targets": [
+        ["css=.en07u8q1", "css:finder"],
+        ["xpath=//div[2]/a/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8596e35a-0ca1-4cd5-96a3-c917a4f0167c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.en07u8q1",
+      "targets": [
+        ["css=.en07u8q1", "css:finder"],
+        ["xpath=//div[2]/a/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4d1fb730-1d13-48d0-8727-a039599c24a5",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.sfa-wm-btn--secondary:nth-child(2)",
+      "targets": [
+        ["css=.sfa-wm-btn--secondary:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='skipto-main-wrap']/div/div[3]/div/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Use my location')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d2f28139-ce19-4512-ba1b-7e2f6ef9aeca",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.sfa-wm-btn--secondary:nth-child(2)",
+      "targets": [
+        ["css=.sfa-wm-btn--secondary:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='skipto-main-wrap']/div/div[3]/div/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Use my location')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "22de2979-a5ae-4017-93f5-342978986c7a",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.sfa-wm-btn--secondary:nth-child(2)",
+      "targets": [
+        ["css=.sfa-wm-btn--secondary:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='skipto-main-wrap']/div/div[3]/div/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Use my location')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f088a011-6f68-4451-87c4-c00e5a63495c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sfa-wm-btn--secondary:nth-child(2)",
+      "targets": [
+        ["css=.sfa-wm-btn--secondary:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='skipto-main-wrap']/div/div[3]/div/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Use my location')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "40de05bd-f44d-485f-b7fb-96fe356e05b6",
+      "comment": "",
+      "command": "click",
+      "target": "css=#sfa-store-list-item-3011 .sfa-store-list-item__name",
+      "targets": [
+        ["css=#sfa-store-list-item-3011 .sfa-store-list-item__name", "css:finder"],
+        ["xpath=//div[@id='sfa-store-list-item-3011']/div[2]/h2", "xpath:idRelative"],
+        ["xpath=//div[2]/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Northland Store')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "18f16397-077f-4b8e-bc89-4211e2b49658",
+    "name": "Search Item By Number Xbox",
+    "commands": [{
+      "id": "f56aa56d-0f42-4be5-9900-16310603d3f4",
+      "comment": "",
+      "command": "open",
+      "target": "/en",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5934f273-fba9-4bc0-af3d-8bc68107b648",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "788x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6f559865-f0fd-4cef-bdc3-3db387bbf07f",
+      "comment": "",
+      "command": "click",
+      "target": "id=search-form-input",
+      "targets": [
+        ["id=search-form-input", "id"],
+        ["css=#search-form-input", "css:finder"],
+        ["xpath=//input[@id='search-form-input']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f24e7e43-6f4f-4d88-b456-4e8322605894",
+      "comment": "",
+      "command": "type",
+      "target": "id=search-form-input",
+      "targets": [
+        ["id=search-form-input", "id"],
+        ["css=#search-form-input", "css:finder"],
+        ["xpath=//input[@id='search-form-input']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": " 30898252"
+    }, {
+      "id": "16652c42-1812-4a62-8150-0db57cbddff5",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=search-form-input",
+      "targets": [
+        ["id=search-form-input", "id"],
+        ["css=#search-form-input", "css:finder"],
+        ["xpath=//input[@id='search-form-input']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "43f684a8-fab0-46ea-bd37-f2a768223c04",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,240.8000030517578)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b2256a82-31b4-4866-8221-d3c9428066f2",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.css-1fnwt3w",
+      "targets": [
+        ["css=.css-1fnwt3w", "css:finder"],
+        ["xpath=//div[@id='product-results']/div/div", "xpath:idRelative"],
+        ["xpath=//div[7]/div[2]/div[2]/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "3525cece-4214-4156-8303-3f5380034dbd",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.walmart.ca/"],
+  "plugins": []
+}
