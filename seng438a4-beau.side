@@ -5,7 +5,7 @@
   "url": "https://www.walmart.ca",
   "tests": [{
     "id": "e3a86f55-6d34-4c02-b200-ff50f82c3c7a",
-    "name": "password change success",
+    "name": "password change password -> password1",
     "commands": [{
       "id": "5b79e8fb-feb9-4680-ba3d-1481645f4f9e",
       "comment": "",
@@ -134,191 +134,6 @@
         ["css=.css-1aukoqp", "css:finder"],
         ["xpath=//main[@id='skip-to-main']/div[2]/div/div/div[5]/button", "xpath:idRelative"],
         ["xpath=//main/div[2]/div/div/div[5]/button", "xpath:position"]
-      ],
-      "value": ""
-    }]
-  }, {
-    "id": "4648a25c-f521-4724-91a5-f5ecb5403141",
-    "name": "change password to current password",
-    "commands": [{
-      "id": "e47d55c9-de2e-4fd7-a4ee-dc5126cec801",
-      "comment": "",
-      "command": "open",
-      "target": "/en",
-      "targets": [],
-      "value": ""
-    }, {
-      "id": "2d11f150-3fad-4286-b863-02a0f39b4404",
-      "comment": "",
-      "command": "setWindowSize",
-      "target": "1918x1054",
-      "targets": [],
-      "value": ""
-    }, {
-      "id": "f31a0e18-4083-4aad-a0f1-3a307b7864d4",
-      "comment": "",
-      "command": "mouseOver",
-      "target": "css=.css-1xnp7l4 > .css-1f9gjts",
-      "targets": [
-        ["css=.css-1xnp7l4 > .css-1f9gjts", "css:finder"],
-        ["xpath=//div[@id='home-page']/div/div/div/div[2]/div/div/a/div/div", "xpath:idRelative"],
-        ["xpath=//div[2]/div/div/a/div/div", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "09c50a04-6b10-4e5e-867e-465cd444938c",
-      "comment": "",
-      "command": "mouseOut",
-      "target": "css=.css-1xnp7l4 > .css-1f9gjts",
-      "targets": [
-        ["css=.css-1xnp7l4 > .css-1f9gjts", "css:finder"],
-        ["xpath=//div[@id='home-page']/div/div/div/div[2]/div/div/a/div/div", "xpath:idRelative"],
-        ["xpath=//div[2]/div/div/a/div/div", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "c89d465b-d3e7-4b7a-9cde-a3996c040c9a",
-      "comment": "",
-      "command": "mouseOver",
-      "target": "linkText=My recommendations",
-      "targets": [
-        ["linkText=My recommendations", "linkText"],
-        ["css=.css-mxl3yf:nth-child(2) > .css-1t0um3j", "css:finder"],
-        ["xpath=//a[contains(text(),'My recommendations')]", "xpath:link"],
-        ["xpath=//a[contains(@href, '/my-account/recommendations')]", "xpath:href"],
-        ["xpath=//div[4]/div/div/ul/li[2]/a", "xpath:position"],
-        ["xpath=//a[contains(.,'My recommendations')]", "xpath:innerText"]
-      ],
-      "value": ""
-    }, {
-      "id": "23ef8166-deab-4495-823e-a2cb39de5a31",
-      "comment": "",
-      "command": "mouseOver",
-      "target": "css=.css-1xnp7l4 > .css-1f9gjts",
-      "targets": [
-        ["css=.css-1xnp7l4 > .css-1f9gjts", "css:finder"],
-        ["xpath=//div[@id='home-page']/div/div/div/div[2]/div/div/a/div/div", "xpath:idRelative"],
-        ["xpath=//div[2]/div/div/a/div/div", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "18c007e0-ad32-4560-b865-4f1ebac5240d",
-      "comment": "",
-      "command": "click",
-      "target": "css=.css-hl2cc3",
-      "targets": [
-        ["css=.css-hl2cc3", "css:finder"],
-        ["xpath=//span/span", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "73c9957a-2152-4ba2-b19f-fbcaf9d37f1d",
-      "comment": "",
-      "command": "mouseOver",
-      "target": "css=.e18kvv91",
-      "targets": [
-        ["css=.e18kvv91", "css:finder"],
-        ["xpath=//div[3]/a/span[2]", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "e573f2d9-df54-4492-9bf1-92afe7778d77",
-      "comment": "",
-      "command": "mouseOver",
-      "target": "linkText=Sign out",
-      "targets": [
-        ["linkText=Sign out", "linkText"],
-        ["css=.css-2hpngt", "css:finder"],
-        ["xpath=//a[contains(text(),'Sign out')]", "xpath:link"],
-        ["xpath=//div[@id='accounts-home-page']/div[2]/div/div/div/div[2]/div[2]/a", "xpath:idRelative"],
-        ["xpath=//a[contains(@href, 'https://www.walmart.ca/ws/secure/en/sign-out')]", "xpath:href"],
-        ["xpath=//div[2]/div[2]/a", "xpath:position"],
-        ["xpath=//a[contains(.,'Sign out')]", "xpath:innerText"]
-      ],
-      "value": ""
-    }, {
-      "id": "f72139e6-3ad4-489e-8843-02c242c7af1d",
-      "comment": "",
-      "command": "click",
-      "target": "linkText=Profile Settings",
-      "targets": [
-        ["linkText=Profile Settings", "linkText"],
-        ["css=.css-163inev:nth-child(2)", "css:finder"],
-        ["xpath=//a[contains(text(),'Profile Settings')]", "xpath:link"],
-        ["xpath=//div[@id='accounts-home-page']/div[3]/div/div[4]/a", "xpath:idRelative"],
-        ["xpath=//a[contains(@href, '/my-account/personal-settings')]", "xpath:href"],
-        ["xpath=//div[4]/a", "xpath:position"],
-        ["xpath=//a[contains(.,'Profile Settings')]", "xpath:innerText"]
-      ],
-      "value": ""
-    }, {
-      "id": "10cbf752-e0aa-463b-8a5d-541dbc4b0b41",
-      "comment": "",
-      "command": "click",
-      "target": "css=.css-4ys7l3 .css-79elbk:nth-child(4) .css-1amkq5n",
-      "targets": [
-        ["css=.css-4ys7l3 .css-79elbk:nth-child(4) .css-1amkq5n", "css:finder"],
-        ["xpath=//main[@id='skip-to-main']/div[2]/div/div/div[3]/div/button", "xpath:idRelative"],
-        ["xpath=//main/div[2]/div/div/div[3]/div/button", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "fbf59195-809c-4d23-8c6f-eab1a4be8168",
-      "comment": "",
-      "command": "click",
-      "target": "css=.css-4ys7l3 #currentPassword",
-      "targets": [
-        ["css=.css-4ys7l3 #currentPassword", "css:finder"],
-        ["xpath=(//input[@id='currentPassword'])[2]", "xpath:attributes"],
-        ["xpath=//main[@id='skip-to-main']/div[2]/div/div/div[3]/div/input", "xpath:idRelative"],
-        ["xpath=//main/div[2]/div/div/div[3]/div/input", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "8b4183ec-43af-40c3-bce2-db3fa62138d2",
-      "comment": "",
-      "command": "type",
-      "target": "css=.css-4ys7l3 #currentPassword",
-      "targets": [
-        ["css=.css-4ys7l3 #currentPassword", "css:finder"],
-        ["xpath=(//input[@id='currentPassword'])[2]", "xpath:attributes"],
-        ["xpath=//main[@id='skip-to-main']/div[2]/div/div/div[3]/div/input", "xpath:idRelative"],
-        ["xpath=//main/div[2]/div/div/div[3]/div/input", "xpath:position"]
-      ],
-      "value": "password"
-    }, {
-      "id": "fbe66c7d-0735-432a-b9a0-bdbf7ebbc213",
-      "comment": "",
-      "command": "click",
-      "target": "css=.css-4ys7l3 #newPassword",
-      "targets": [
-        ["css=.css-4ys7l3 #newPassword", "css:finder"],
-        ["xpath=(//input[@id='newPassword'])[2]", "xpath:attributes"],
-        ["xpath=//main[@id='skip-to-main']/div[2]/div/div/div[4]/div/input", "xpath:idRelative"],
-        ["xpath=//main/div[2]/div/div/div[4]/div/input", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "7b6965e5-5b31-4ae8-8f3d-d15b13f46c87",
-      "comment": "",
-      "command": "type",
-      "target": "css=.css-4ys7l3 #newPassword",
-      "targets": [
-        ["css=.css-4ys7l3 #newPassword", "css:finder"],
-        ["xpath=(//input[@id='newPassword'])[2]", "xpath:attributes"],
-        ["xpath=//main[@id='skip-to-main']/div[2]/div/div/div[4]/div/input", "xpath:idRelative"],
-        ["xpath=//main/div[2]/div/div/div[4]/div/input", "xpath:position"]
-      ],
-      "value": "password"
-    }, {
-      "id": "3fbbeff8-113d-4eb7-adaa-8c4762025ce7",
-      "comment": "",
-      "command": "click",
-      "target": "css=.css-4ys7l3 .css-36pgf3",
-      "targets": [
-        ["css=.css-4ys7l3 .css-36pgf3", "css:finder"],
-        ["xpath=//main[@id='skip-to-main']/div[2]/div/div", "xpath:idRelative"],
-        ["xpath=//main/div[2]/div/div", "xpath:position"]
       ],
       "value": ""
     }]
@@ -528,6 +343,120 @@
       ],
       "value": ""
     }]
+  }, {
+    "id": "73ae2a97-ca45-47f3-ac6f-5e521d18e786",
+    "name": "change password to current password",
+    "commands": [{
+      "id": "62bfa38b-20a6-4e7e-99d1-154910620d19",
+      "comment": "",
+      "command": "open",
+      "target": "/en",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "46b34cba-d824-4339-8d17-28391f64e2cf",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1918x1054",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b51afbd5-f0cd-42c7-aabb-38ba06d4f845",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-1xh2uh0 > div > span",
+      "targets": [
+        ["css=.css-1xh2uh0 > div > span", "css:finder"],
+        ["xpath=//a/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a4abf2a4-9ffb-4779-9573-ea3ef3d7bfaa",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Profile Settings",
+      "targets": [
+        ["linkText=Profile Settings", "linkText"],
+        ["css=.css-163inev:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Profile Settings')]", "xpath:link"],
+        ["xpath=//div[@id='accounts-home-page']/div[3]/div/div[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/my-account/personal-settings')]", "xpath:href"],
+        ["xpath=//div[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Profile Settings')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "dbd670fd-95d2-4e28-9222-eea9a7f97885",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-4ys7l3 .css-79elbk:nth-child(4) .css-1amkq5n",
+      "targets": [
+        ["css=.css-4ys7l3 .css-79elbk:nth-child(4) .css-1amkq5n", "css:finder"],
+        ["xpath=//main[@id='skip-to-main']/div[2]/div/div/div[3]/div/button", "xpath:idRelative"],
+        ["xpath=//main/div[2]/div/div/div[3]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f5d2a377-1822-45f8-b56d-e91049d4937a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-4ys7l3 #currentPassword",
+      "targets": [
+        ["css=.css-4ys7l3 #currentPassword", "css:finder"],
+        ["xpath=(//input[@id='currentPassword'])[2]", "xpath:attributes"],
+        ["xpath=//main[@id='skip-to-main']/div[2]/div/div/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//main/div[2]/div/div/div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "44b12183-ec4b-4ac0-a70e-3cdcdeee9d88",
+      "comment": "",
+      "command": "type",
+      "target": "css=.css-4ys7l3 #currentPassword",
+      "targets": [
+        ["css=.css-4ys7l3 #currentPassword", "css:finder"],
+        ["xpath=(//input[@id='currentPassword'])[2]", "xpath:attributes"],
+        ["xpath=//main[@id='skip-to-main']/div[2]/div/div/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//main/div[2]/div/div/div[3]/div/input", "xpath:position"]
+      ],
+      "value": "password"
+    }, {
+      "id": "e4a4469c-026a-4b64-b091-150d56625c9b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-4ys7l3 #newPassword",
+      "targets": [
+        ["css=.css-4ys7l3 #newPassword", "css:finder"],
+        ["xpath=(//input[@id='newPassword'])[2]", "xpath:attributes"],
+        ["xpath=//main[@id='skip-to-main']/div[2]/div/div/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//main/div[2]/div/div/div[4]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "edbb1649-eeae-404a-8ab5-65d3359bd5cb",
+      "comment": "",
+      "command": "type",
+      "target": "css=.css-4ys7l3 #newPassword",
+      "targets": [
+        ["css=.css-4ys7l3 #newPassword", "css:finder"],
+        ["xpath=(//input[@id='newPassword'])[2]", "xpath:attributes"],
+        ["xpath=//main[@id='skip-to-main']/div[2]/div/div/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//main/div[2]/div/div/div[4]/div/input", "xpath:position"]
+      ],
+      "value": "password"
+    }, {
+      "id": "78e065a1-998b-49f1-9bfd-63e061f13d05",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.css-4ys7l3 #newPassword",
+      "targets": [
+        ["css=.css-4ys7l3 #newPassword", "css:finder"],
+        ["xpath=(//input[@id='newPassword'])[2]", "xpath:attributes"],
+        ["xpath=//main[@id='skip-to-main']/div[2]/div/div/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//main/div[2]/div/div/div[4]/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }]
   }],
   "suites": [{
     "id": "27e857ce-5fb9-49ee-8354-54ff972a4fcd",
@@ -535,7 +464,7 @@
     "persistSession": false,
     "parallel": false,
     "timeout": 300,
-    "tests": ["4648a25c-f521-4724-91a5-f5ecb5403141", "e3a86f55-6d34-4c02-b200-ff50f82c3c7a", "52da31c7-f8a7-42fe-bd68-d1c36aa81b2c"]
+    "tests": ["e3a86f55-6d34-4c02-b200-ff50f82c3c7a", "52da31c7-f8a7-42fe-bd68-d1c36aa81b2c"]
   }],
   "urls": ["https://www.walmart.ca/"],
   "plugins": []
