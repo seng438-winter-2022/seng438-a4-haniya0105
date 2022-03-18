@@ -197,21 +197,7 @@ public class RangeTest {
         0, exampleRange2.getLength(), .000000001d);
     }
     
-    //----------------------MUTATION TESTS
-    //Haniya
-    //ensure an integer is returned by hashCode
-    @Test
-	public void testhashCodeIntegerReturnValue() {
-    	int checker;
-    	boolean passTest = true;
-		try {
-			checker = testRange.hashCode();
-		} catch (Exception e) {
-			passTest = false;
-		} finally {
-			assertTrue("hashCode() should return an integer value", passTest);
-		}
-	}
+
     
     //Haniya 
     //pass two doubles that are valid numbers
