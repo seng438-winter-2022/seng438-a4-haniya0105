@@ -3,3 +3,11 @@ seng438a4.side
 
 Sign into my walmart account for the password change tests:
 tribbles2014@gmail.com password
+
+Apostolos
+
+Run my selenium test at 80 to 90 % speed sometimes they bug
+because there are a lot of images loaded as css elements.
+If that happens just close the test and re run, asserts exist on
+all three tests as well. Break points were also added at some 
+points to allow pages to load.
