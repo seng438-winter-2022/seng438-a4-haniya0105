@@ -569,7 +569,22 @@ public class DataUtilitiesTest {
          Assert.assertFalse("Expected result is False", actualResult);
      }
     
-    
+    //test cloning with a 1by10 array
+   @Test
+   public void cloneTenByOneArray() {
+       double [][] expected = {{15.1},{-15.1},{12},{12},{182},{8282},{16.},{32},{15.782},{15.78282}};
+       double [][] actual = DataUtilities.clone(expected);
+       assertArrayEquals("The produced array is not a correct copy of the passed array", expected, actual);
+   }
+   
+
+ //test to ensure bypassing of ParamChecks is not done
+   @Test (expected = IllegalArgumentException.class)
+    public void null2DArrayTest() throws IllegalArgumentException {
+        Number test [][]  = DataUtilities.createNumberArray2D(null);
+        fail("null cannot be passed as a parameter");
+
+}
     
     //---------------------------------------------------------------------------------------
 
