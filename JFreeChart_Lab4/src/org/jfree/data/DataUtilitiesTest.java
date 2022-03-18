@@ -586,7 +586,45 @@ public class DataUtilitiesTest {
 
 }
     
-
+//test cumulative percentage with 4 vals
+@Test
+public void testCumulativePercentage() {
+    Mockery mockingContext = new Mockery();
+    final KeyedValues values = mockingContext.mock(KeyedValues.class);    
+    mockingContext.checking(new Expectations(){
+        {
+            allowing(values).getItemCount();
+            will(returnValue(4));
+            
+            allowing(values).getValue(0);
+            will(returnValue(1));
+            allowing(values).getValue(1);
+            will(returnValue(1));
+            allowing(values).getValue(2);
+            will(returnValue(1));
+            allowing(values).getValue(3);
+            will(returnValue(1));
+            
+            
+        
+            allowing(values).getKey(0);
+            will(returnValue(0));
+            allowing(values).getKey(1);
+            will(returnValue(1));
+            allowing(values).getKey(2);
+            will(returnValue(2));
+            allowing(values).getKey(3);
+            will(returnValue(3));
+    
+            
+        }
+        
+    });
+    double result = DataUtilities.getCumulativePercentages(values).getValue(0).doubleValue();
+    values.getValue(1).intValue();
+    assertEquals("The Keyed Value returned is incorrect" , 0.25, result, 0);
+}
+   
 
    
    
