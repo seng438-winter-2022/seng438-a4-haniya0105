@@ -287,6 +287,18 @@
       "targets": [],
       "value": ""
     }, {
+      "id": "00e84432-77bb-4769-9b5b-0a6a6af0c74d",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=div:nth-child(1) > .css-1fnwt3w .css-gxbcya",
+      "targets": [
+        ["css=div:nth-child(1) > .css-1fnwt3w .css-gxbcya", "css:finder"],
+        ["xpath=//img[@alt='Mario Kart 8 Deluxe (Nintendo Switch)']", "xpath:img"],
+        ["xpath=//div[@id='product-results']/div/div/a/div/div/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
       "id": "ef31e0a5-e937-41d2-aea3-ad2a272f9a0a",
       "comment": "",
       "command": "setWindowSize",
@@ -329,18 +341,6 @@
         ["xpath=//input", "xpath:position"]
       ],
       "value": "${KEY_ENTER}"
-    }, {
-      "id": "00e84432-77bb-4769-9b5b-0a6a6af0c74d",
-      "comment": "",
-      "command": "mouseOver",
-      "target": "css=div:nth-child(1) > .css-1fnwt3w .css-gxbcya",
-      "targets": [
-        ["css=div:nth-child(1) > .css-1fnwt3w .css-gxbcya", "css:finder"],
-        ["xpath=//img[@alt='Mario Kart 8 Deluxe (Nintendo Switch)']", "xpath:img"],
-        ["xpath=//div[@id='product-results']/div/div/a/div/div/img", "xpath:idRelative"],
-        ["xpath=//img", "xpath:position"]
-      ],
-      "value": ""
     }, {
       "id": "6f97bd05-8138-4a88-8ac2-017403acb545",
       "comment": "",
@@ -487,6 +487,72 @@
         ["css=.css-1aukoqp", "css:finder"],
         ["xpath=//main[@id='skip-to-main']/div[2]/div/div/div[5]/button", "xpath:idRelative"],
         ["xpath=//main/div[2]/div/div/div[5]/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "50fa920a-97a1-4775-9334-1d406d49e6ed",
+    "name": "search kitkat",
+    "commands": [{
+      "id": "3ae0d37b-aca5-436a-8a35-91f72e5b1c32",
+      "comment": "",
+      "command": "open",
+      "target": "/en",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e58d32dd-17c5-4bd1-b9a9-c37e9dbc93f7",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "70847156-40d9-44bd-857b-8acae2e7c40a",
+      "comment": "",
+      "command": "click",
+      "target": "id=search-form-input",
+      "targets": [
+        ["id=search-form-input", "id"],
+        ["css=#search-form-input", "css:finder"],
+        ["xpath=//input[@id='search-form-input']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b910a6b6-0110-46ed-b5c4-e3d10c67599a",
+      "comment": "",
+      "command": "type",
+      "target": "id=search-form-input",
+      "targets": [
+        ["id=search-form-input", "id"],
+        ["css=#search-form-input", "css:finder"],
+        ["xpath=//input[@id='search-form-input']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "kitkat"
+    }, {
+      "id": "6363130c-6339-4061-ad99-57f269275455",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=search-form-input",
+      "targets": [
+        ["id=search-form-input", "id"],
+        ["css=#search-form-input", "css:finder"],
+        ["xpath=//input[@id='search-form-input']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "abfe51a6-696f-4bf7-aba4-d1b6e6dbc3f7",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=div:nth-child(1) > .css-1fnwt3w .css-gxbcya",
+      "targets": [
+        ["css=div:nth-child(1) > .css-1fnwt3w .css-gxbcya", "css:finder"],
+        ["xpath=//img[@alt='NESTLÉ KITKAT Milk Chocolate Wafer Bars 4-Pack 4 x 45g']", "xpath:img"],
+        ["xpath=//div[@id='product-results']/div/div/a/div/div/img", "xpath:idRelative"],
+        ["xpath=//a/div/div/img", "xpath:position"]
       ],
       "value": ""
     }]
