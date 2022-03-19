@@ -755,6 +755,126 @@
       ],
       "value": ""
     }]
+  }, {
+    "id": "bad6f84e-7859-41b6-bb27-69534eaa7a51",
+    "name": "zFoodItemAdded",
+    "commands": [{
+      "id": "71d7aa11-ba0b-4639-b371-4dc16dc73a48",
+      "comment": "",
+      "command": "open",
+      "target": "/en",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "12e3043b-2730-4d6b-bd64-d1ba546ea5d3",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0daef20d-6088-4a7d-956c-973f983d0c5f",
+      "comment": "",
+      "command": "click",
+      "target": "id=search-form-input",
+      "targets": [
+        ["id=search-form-input", "id"],
+        ["css=#search-form-input", "css:finder"],
+        ["xpath=//input[@id='search-form-input']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f84d4ef3-3cf2-443b-bf40-11a3a46c65e6",
+      "comment": "",
+      "command": "type",
+      "target": "id=search-form-input",
+      "targets": [
+        ["id=search-form-input", "id"],
+        ["css=#search-form-input", "css:finder"],
+        ["xpath=//input[@id='search-form-input']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "kitkat"
+    }, {
+      "id": "66230d07-195b-4314-95fc-692b9afadb00",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=search-form-input",
+      "targets": [
+        ["id=search-form-input", "id"],
+        ["css=#search-form-input", "css:finder"],
+        ["xpath=//input[@id='search-form-input']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "9a29b97d-d788-4f34-b92f-161aa2929f8b",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(1) > .css-1fnwt3w .css-gxbcya",
+      "targets": [
+        ["css=div:nth-child(1) > .css-1fnwt3w .css-gxbcya", "css:finder"],
+        ["xpath=//img[@alt='NESTLÉ KITKAT Milk Chocolate Wafer Bars 4-Pack 4 x 45g']", "xpath:img"],
+        ["xpath=//div[@id='product-results']/div/div/a/div/div/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2c639c20-9ce3-4c99-9d96-16cd21b0f60a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-dldxm2",
+      "targets": [
+        ["css=.css-dldxm2", "css:finder"],
+        ["xpath=//div[@id='add-to-cart-button-wrapper']/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Add to cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0f1800e0-9f30-47e3-b21b-d5fa5309cf75",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-ktyipj",
+      "targets": [
+        ["css=.css-ktyipj", "css:finder"],
+        ["xpath=//div[@id='modal-root']/div/div/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e199e89a-f1a4-4bab-8cf0-14fddca43641",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.css-1f9gjts",
+      "targets": [
+        ["css=.css-1f9gjts", "css:finder"],
+        ["xpath=//div[@id='atc-root']/div/div/div/a/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div/div/div/div/a/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "544981a3-6255-4847-90af-26f110332ae3",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.css-1f9gjts",
+      "targets": [
+        ["css=.css-1f9gjts", "css:finder"],
+        ["xpath=//div[@id='atc-root']/div/div/div/a/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div/div/div/div/a/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "95f3c271-56f4-4f61-8f7b-7543d21f10f5",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=svg:nth-child(1) > g > path:nth-child(1)",
+      "targets": [
+        ["css=svg:nth-child(1) > g > path:nth-child(1)", "css:finder"]
+      ],
+      "value": ""
+    }]
   }],
   "suites": [{
     "id": "b1378570-4e3d-4e5b-b718-50c4eeb430f5",
